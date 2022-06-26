@@ -1,0 +1,45 @@
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 80px;
+  background: #e3e6f3;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.navLinkGroup {
+  display: flex;
+}
+
+.navInfo {
+  display: flex;
+  align-items: center;
+}
+
+.navInfo i {
+  font-size: 1.2rem;
+}
+
+#searchGroup {
+  border: 1px solid black;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+
+#searchGroup input {
+  border: none;
+  background-color: #e3e6f3;
+}
+
+#searchGroup input:focus {
+  outline: none;
+}
+
+#closeNavBtn,
+#toggleBtn {
+  display: none;
+}
